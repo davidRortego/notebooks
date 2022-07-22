@@ -1,2 +1,3 @@
-# Notebooks
-Here is where I keep the Jupyter Notebooks.
+# Jupyter Notebooks
+
+* [Pandas Warmup](./pandas/01_warmup/pandas_warmup.html)
