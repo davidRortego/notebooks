@@ -2,4 +2,4 @@
 
 ## Pandas
 
-* [Pandas Warmup](./pandas/01_warmup/pandas_warmup.ipynb)
+* [Warmup](./pandas/01_warmup/pandas_warmup.ipynb)
