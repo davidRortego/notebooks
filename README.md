@@ -1,5 +1,9 @@
 # Jupyter Notebooks
 
-## Pandas
+## pandas
 
-* [Warmup](./pandas/01_warmup/pandas_warmup.ipynb)
+* [warmup exercises](./pandas/warmup/pandas_warmup.ipynb)
+
+## NumPy
+
+* [getting started with NumPy](./numpy/numpy_getting_started.ipynb)
