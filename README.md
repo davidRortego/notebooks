@@ -6,4 +6,4 @@
 
 ## NumPy
 
-* [getting started with NumPy](./numpy/numpy_getting_started.ipynb)
+* [getting started with NumPy](./numpy/getting_started/numpy_getting_started.ipynb)
