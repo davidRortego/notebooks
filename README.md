@@ -3,6 +3,7 @@
 ## pandas
 
 * [Warmup exercises](./pandas/warmup/pandas_warmup.ipynb)
+* [DataFrame](./pandas/DataFrame/pandas_DataFrame.ipynb)
 
 ## NumPy
 
