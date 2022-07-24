@@ -3,11 +3,11 @@
 ## pandas
 
 * [Warmup exercises](./pandas/warmup/pandas_warmup.ipynb)
-* [DataFrame](./pandas/DataFrame/pandas_DataFrame.ipynb)
+* [Creating Thy First `pandas` DataFrame](./pandas/DataFrame/pandas_DataFrame.ipynb)
 
 ## NumPy
 
-* [Getting started with NumPy](./numpy/getting_started/numpy_getting_started.ipynb)
+* [Getting Started with NumPy](./numpy/getting_started/numpy_getting_started.ipynb)
 
 ## SQL
 
