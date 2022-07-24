@@ -1,5 +1,7 @@
 # Jupyter Notebooks
 
+These are my notebooks from tutorials, books and so on.
+
 ## pandas
 
 * [Warmup exercises](./pandas/warmup/pandas_warmup.ipynb)
