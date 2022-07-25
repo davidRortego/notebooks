@@ -14682,7 +14682,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <li><code>tbl_customers</code></li>
 <li><code>tbl_products</code></li>
 </ol>
-<p><img src="../data/source/erd.JPG" alt="Entity Relationship Diagram"></p>
+<p><img src="../data/erd.JPG" alt="Entity Relationship Diagram"></p>
 <p>Let's go on ahead and connect to the DB</p>
 
 </div>
@@ -14696,7 +14696,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">conn</span> <span class="o">=</span> <span class="n">sqlite3</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="s1">&#39;../data/source/customer_sales.db&#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">conn</span> <span class="o">=</span> <span class="n">sqlite3</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="s1">&#39;../data/customer_sales.db&#39;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -15169,7 +15169,7 @@ Name: 0, dtype: object</pre>
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Data-about-your-data-explained">Data about your data explained<a class="anchor-link" href="#Data-about-your-data-explained">&#182;</a></h2><h3 id="Fundamental-statistics">Fundamental statistics<a class="anchor-link" href="#Fundamental-statistics">&#182;</a></h3><p>Descriptive analytics is based on what has already happened in the past by analyzing the digital footprint of data to gain insights, analyze trends, and identify patterns.</p>
 <p>Using SQL to read data from one or more tables supports this effort, which should include basic statistics and arithmetic.</p>
-<p><img src="../data/source/fundamental_stats.JPG" alt="fundamental stats"></p>
+<p><img src="../data/fundamental_stats.JPG" alt="fundamental stats"></p>
 
 </div>
 </div>
@@ -15203,7 +15203,7 @@ Name: 0, dtype: object</pre>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># connect to the DB and make a dataframe</span>
-<span class="n">conn</span> <span class="o">=</span> <span class="n">sqlite3</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="s1">&#39;../data/source/customer_sales.db&#39;</span><span class="p">)</span>
+<span class="n">conn</span> <span class="o">=</span> <span class="n">sqlite3</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="s1">&#39;../data/customer_sales.db&#39;</span><span class="p">)</span>
 <span class="n">df_customer_sales</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_sql_query</span><span class="p">(</span><span class="s2">&quot;&quot;&quot;</span>
 <span class="s2">  SELECT * FROM tbl_customers</span>
 <span class="s2">&quot;&quot;&quot;</span><span class="p">,</span> <span class="n">conn</span><span class="p">)</span>
