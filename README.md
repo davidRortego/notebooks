@@ -5,11 +5,11 @@ These are my notebooks from tutorials, books and so on.
 ## pandas
 
 * [Warmup exercises](./pandas/warmup/pandas_warmup.ipynb)
-* [Creating Thy First `pandas` DataFrame](./pandas/DataFrame/pandas_DataFrame.ipynb)
+* [Creating thy first pandas DataFrame](./pandas/DataFrame/pandas_DataFrame.ipynb)
 
 ## NumPy
 
-* [Getting Started with NumPy](./numpy/getting_started/numpy_getting_started.ipynb)
+* [Getting started with NumPy](./numpy/getting_started/numpy_getting_started.ipynb)
 
 ## SQL
 
