@@ -13,3 +13,4 @@
 
 * [sqldf](./sql/sqldf/sql_pandas_sqldf.ipynb)
 * [SQLite](./sql/SQLite/sql_sqlite.ipynb)
+* [Load SQL in Python](./sql/sql_load/sql_load_data_py.ipynb)
